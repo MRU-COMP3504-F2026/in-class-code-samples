@@ -1,0 +1,16 @@
+{
+  "name": "demo-ci-cd",
+  "version": "1.0.0",
+  "description": "Demo project for CI/CD and code coverage",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "echo 'Build complete: Static files are ready to deploy'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
