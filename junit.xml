@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="0.52">
+  <testsuite name="Arithmetic Functions" errors="0" failures="0" skipped="0" timestamp="2025-11-10T02:51:40" time="0.358" tests="4">
+    <testcase classname="Arithmetic Functions adds two numbers" name="Arithmetic Functions adds two numbers" time="0.002">
+    </testcase>
+    <testcase classname="Arithmetic Functions subtracts two numbers" name="Arithmetic Functions subtracts two numbers" time="0">
+    </testcase>
+    <testcase classname="Arithmetic Functions multiplies two numbers" name="Arithmetic Functions multiplies two numbers" time="0">
+    </testcase>
+    <testcase classname="Arithmetic Functions divides two numbers" name="Arithmetic Functions divides two numbers" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="average" errors="0" failures="0" skipped="0" timestamp="2025-11-10T02:51:40" time="0.048" tests="1">
+    <testcase classname="average calculates the average of positive numbers" name="average calculates the average of positive numbers" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-11-10T02:51:40" time="0.039" tests="2">
+    <testcase classname=" test adding method" name=" test adding method" time="0.001">
+    </testcase>
+    <testcase classname=" test multiplication method" name=" test multiplication method" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
