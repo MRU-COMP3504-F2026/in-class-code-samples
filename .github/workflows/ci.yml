@@ -20,12 +20,15 @@ jobs:
       - name: Run tests and collect coverage
         run: npm run test
 
+      - name: Run tests
+        run: npx jest --coverage
+
         # Copy and paste the codecov/test-results-action here
-      - name: Upload coverage to Codecov
+      - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-
+          
       - name: Upload test results to Codecov
         if: ${{ !cancelled() }}
         uses: codecov/test-results-action@v1
